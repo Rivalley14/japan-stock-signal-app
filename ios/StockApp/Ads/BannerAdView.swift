@@ -2,9 +2,8 @@ import SwiftUI
 import UIKit
 import GoogleMobileAds
 
-// AdMobで実際の広告ユニットIDを発行したら、下記を差し替えてください。
-// 現在はGoogle公式のテスト広告ユニットID（本番トラフィックにはカウントされません）です。
-private let bannerAdUnitID = "ca-app-pub-3940256099942544/2435281174"
+// 日本株シグナル（経験者用）アプリ用のバナー広告ユニットID（AdMob発行）
+private let bannerAdUnitID = "ca-app-pub-5270276427916354/2647709591"
 
 struct BannerAdView: View {
     private let adSize = largeAnchoredAdaptiveBanner(width: UIScreen.main.bounds.width)

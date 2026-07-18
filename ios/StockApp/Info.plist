@@ -39,7 +39,7 @@
 		<true/>
 	</dict>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<string>ca-app-pub-5270276427916354~5465444624</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>広告の表示内容を最適化するために使用されます。許可しない場合もアプリの利用に支障はありません。</string>
 	<key>SKAdNetworkItems</key>
