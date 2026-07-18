@@ -56,8 +56,7 @@ PER、PBR、ROE、ROA、EPS、配当利回り、時価総額、営業利益率�
 
 - サポートURL: （必須。問い合わせ先ページのURLを用意してください。GitHub Pagesの別ページでも可）
 - マーケティングURL: （任意）
-- プライバシーポリシーURL: `https://<GitHubユーザー名>.github.io/<リポジトリ名>/privacy-policy/`
-  （`docs/privacy-policy/index.html` をGitHub Pagesで公開後のURLに置き換えてください）
+- プライバシーポリシーURL: `https://rivalley14.github.io/japan-stock-signal-app/docs/privacy-policy/`（公開済み）
 
 ## App Privacy（データ収集の申告）
 
@@ -85,5 +84,5 @@ App Store Connectの「App Privacy」セクションで、以下の内容を申�
 ## 審査時の注意点（Apple Review Guidelines関連）
 
 - 金融情報アプリのため、投資助言でない旨の免責文言を各シグナル表示箇所に明記済み（審査担当者から確認される場合あり）
-- テスト用のAdMob広告ユニットIDのままだと審査で警告される可能性があるため、**提出前に必ず実際の広告ユニットIDに差し替えてください**
+- AdMobの広告ユニットIDは実際に発行したものに差し替え済み（`ca-app-pub-5270276427916354/...`）。ただしAdMob側のアプリ審査が完了するまでは広告が空欄/no fillになる場合がある旨、必要であればレビュー担当者向けメモに記載
 - レビュー用の説明（App Review Information）に、バックエンドサーバーが必要な構成である旨と、テスト用にログイン不要ですぐ使える旨を記載すると審査がスムーズです
