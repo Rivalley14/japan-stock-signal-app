@@ -67,6 +67,9 @@ def get_fundamentals(code: str):
     if cached is not None:
         return cached
     data = yfinance_client.fetch_fundamentals(code)
+    master_entry = master.lookup(code)
+    if master_entry is not None:
+        data["name"] = master_entry["name"]
     cache.set(cache_key, data, config.FUNDAMENTALS_TTL_SECONDS)
     return data
 
