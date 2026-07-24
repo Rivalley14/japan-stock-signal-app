@@ -54,7 +54,7 @@ PER、PBR、ROE、ROA、EPS、配当利回り、時価総額、営業利益率�
 
 ## サポートURL / マーケティングURL
 
-- サポートURL: （必須。問い合わせ先ページのURLを用意してください。GitHub Pagesの別ページでも可）
+- サポートURL: `https://rivalley14.github.io/japan-stock-signal-app/docs/support/`（公開済み）
 - マーケティングURL: （任意）
 - プライバシーポリシーURL: `https://rivalley14.github.io/japan-stock-signal-app/docs/privacy-policy/`（公開済み）
 
