@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: japan-stock-signal-api
+    runtime: docker
+    rootDir: backend
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
