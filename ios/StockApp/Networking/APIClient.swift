@@ -8,7 +8,7 @@ enum APIError: Error {
 final class APIClient {
     static let shared = APIClient()
 
-    var baseURL = URL(string: "http://127.0.0.1:8000")!
+    var baseURL = URL(string: "https://japan-stock-signal-app.onrender.com")!
 
     private let decoder: JSONDecoder = {
         let decoder = JSONDecoder()
