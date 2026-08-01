@@ -3,15 +3,11 @@ import SwiftData
 
 @main
 struct StockAppApp: App {
-    init() {
-        AdsManager.initialize()
-    }
-
     var body: some Scene {
         WindowGroup {
             RootTabView()
                 .task {
-                    AdsManager.requestTrackingAuthorizationIfNeeded()
+                    await AdsManager.requestTrackingAuthorizationIfNeeded()
                 }
         }
         .modelContainer(for: WatchlistItem.self)
